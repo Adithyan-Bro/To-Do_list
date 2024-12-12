@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do List</title>
+   <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <div class="main">
+
+        <div class="box">
+            <h2 class="title">Todo List</h2>
+
+            <div class="sub-box">
+                <input type="text" class="field" id ="field"placeholder="Add your task"></input>
+                <button type="submit" class="add"  onclick="add()">Add</button>
+             </div>
+             <div id="error"></div>
+ 
+            <h4 class="list color-white"> Your tasks</h4>
+           <ul id="list" class="">
+            
+         
+
+            </ul>
+       
+        </div>
+    </div>
+
+    <script src="davinchi.js"></script>
+</body>
+</html>

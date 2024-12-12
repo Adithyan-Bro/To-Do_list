@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serf;
+}
+body{
+    width: 100%;
+    min-height:100vh;
+    background:linear-gradient(135deg,#d1971b,#4520cc);
+    padding: 10px;
+    justify-content:center;
+    
+   
+}
+.box{
+    height:auto;
+    max-width:420px;
+    width:auto;
+    min-width:400px;
+    background:#d6d1d1;
+    border-radius:30px;
+    margin:80px auto 20px;
+    padding:30px 20px 30px;
+}
+.sub-box{
+    display:flex;
+    align-items:center;
+    border-radius:30px;
+    padding-left:1px;
+    margin-bottom:15px;
+}
+.title{
+    margin-left:5px;
+    font-size:28px;
+    color:#0c08fae8;
+}
+.add{
+   
+    margin-left:4px;
+    font-size:19px;
+    font:bold;
+    color:rgba(255, 255, 255, 0.911);
+    border:none;
+    height: 30px;
+    width: 60px;
+    background:rgba(255, 166, 0, 0.822);
+    cursor:pointer;
+    border-radius:7px;
+    
+}
+.add:hover{
+    color:#fff;
+    background:orange;
+}
+
+.field{
+    margin-left:6px;
+    border:none;
+    color:#4b4848;
+    font-size:20px;
+    width:300px;
+    height:30px;
+    border-radius:7px;
+    padding-left:6px;
+    outline:none;
+   
+
+}
+ul li {
+   font-size: 20px ;
+    color:rgb(17, 17, 17);
+    margin-left:10px;
+    margin-right:570px;
+    padding: 4px 4px;
+    font:bold;
+    flex-direction:row;
+    width:100%;
+    height:auto;
+    display:block;
+    padding-left:0%;
+    position:relative;
+    margin-right:900px;
+    cursor:pointer;
+    gap: 3px;
+}
+
+.list{
+    color:rgba(255, 140, 0, 0.897);
+    margin-left:10px;
+    margin-top:0;
+    text-align:start;
+   
+}
+
+ul li span {
+    cursor:pointer;
+    position:absolute;
+    right:100%;
+    top:4%;
+    padding: 4px 4px;
+    font-size:20px;
+   border-radius:5px;
+   margin-right: 3px;
+   text-align:center;
+
+}
+ul li.checked{
+    color:#555;
+    text-decoration:line-through;
+}
+
+ul li span:hover {
+    background: #bbb;
+    
+   
+}
+#error{
+    color:rgba(255, 0, 0, 0.822);
+    margin-left:5px;
+    font:bold;
+}
+.undo{
+font-size:25px;
+justify-content:center;
+width: 100px;
+height: 50px;
+color:blue;
+background-color:white;
+align-content:center;
+text-align:center;
+margin-left:620px;
+display:fixed;
+
+cursor:pointer;
+}
+.undo:hover{
+  background:#f0eeeeb4;
+  box-shadow:solid#000 ;
+  
+}
