@@ -31,7 +31,17 @@
        
         </div>
     </div>
-
+<script>
+    if(`serviceWorker` in navigator){
+        window.addEventListener(`load`,function(){
+            navigation.serviceWorker.register('/sw,js'),then(function(registration){
+                console.log(`success`);
+            },function(err){
+                console.log(`error`);
+            });
+        });
+    }
+</script>
     <script src="davinchi.js"></script>
 </body>
 </html>
