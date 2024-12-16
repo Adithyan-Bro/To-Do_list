@@ -14,7 +14,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "http://127.0.0.1:5500/sub/in.html",
+    "start_url": "https://adithyan-bro.github.io/To-Do_list/in.html",
     "background_color": "#3367D6",
     "display": "standalone",
     "theme_color": "#3367D6"
