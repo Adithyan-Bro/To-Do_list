@@ -62,7 +62,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
 button.addEventListener('click', (e) => {
   // Hide the app provided install promotion
-  div.style.display='none';
+ 
   // Show the install prompt
   deferredPrompt.prompt();
   // Wait for the user to respond to the prompt
@@ -70,6 +70,7 @@ button.addEventListener('click', (e) => {
   .then((choiceResult)=>{
      if(choiceResult.outcome === 'accepted'){
         console.log('user accepted')
+        div.style.display='none';
      }else{
         console.log('user dismissed')
      }
